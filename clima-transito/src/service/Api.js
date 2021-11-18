@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const httpClient = axios.create({
-  baseURL: '?',
+  baseURL: 'http://api-transito.test/',
 });
 
 class Api {

@@ -8,18 +8,6 @@
   max-width: fit-content;
 }
 
-/* .list-title {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 5rem;
-  width: 50%;
-  border-radius: 5px;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
-  padding: 1rem;
-  align-items: center;
-} */
-
 .options-item {
   font-family: 'Roboto Mono', monospace;
   color: #000000;
@@ -30,4 +18,53 @@
   color: #1a6489;
   font-size: 24px;
   padding: 3px;
+  margin-bottom: 0;
+}
+
+/* box component */
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 8rem;
+}
+
+.box-component {
+  margin-top: 4rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+}
+
+.search-bar {
+  width: 100px;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 1240px) {
+  .box-component {
+    padding: 1rem 1rem;
+    max-width: 850px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .options-box {
+    padding: 1rem;
+    max-width: 45vh;
+  }
+
+  .box-component {
+    max-width: 45vh;
+  }
+
+  .bus-icon {
+    font-size: 16px;
+    margin-right: 5px !important;
+  }
+
+  .stop-name {
+    font-size: 12px;
+  }
 }
