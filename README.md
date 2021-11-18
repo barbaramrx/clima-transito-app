@@ -1,6 +1,6 @@
 ## Clima-Transito APP
 
-A responsive web application done with React.\
+A responsive web application developed with React.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
